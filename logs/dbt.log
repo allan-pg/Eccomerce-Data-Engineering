@@ -61,3 +61,176 @@ click.exceptions.Abort
 [0m22:17:18.492853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B3C5A3E780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B3C5A968D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B3C5A1B020>]}
 [0m22:17:18.493512 [debug] [MainThread]: Flushing usage events
 [0m22:17:20.293299 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:39:14.492918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E9EF25D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025E9AB3AFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA10DBED0>]}
+
+
+============================== 05:39:14.506739 | 08a7d71f-bda7-4aee-b15d-b46701389255 ==============================
+[0m05:39:14.506739 [info ] [MainThread]: Running with dbt=1.11.11
+[0m05:39:14.508133 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Arthur\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m05:39:24.519005 [info ] [MainThread]: A project called dbt_eccomerce already exists here.
+[0m05:39:24.521429 [debug] [MainThread]: Command `dbt init` succeeded at 05:39:24.521102 after 10.35 seconds
+[0m05:39:24.522275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA10EB820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA116EC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA0F6EBE0>]}
+[0m05:39:24.523077 [debug] [MainThread]: Flushing usage events
+[0m05:39:26.085961 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:06:19.693807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3FDF25D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3F9B7AFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E38019FED0>]}
+
+
+============================== 06:06:19.707557 | f0667dc4-d551-46ea-a123-4c30d20efd43 ==============================
+[0m06:06:19.707557 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:06:19.710360 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Arthur\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init ecommerce_dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m06:06:19.780322 [debug] [MainThread]: Starter project path: C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\venv\Lib\site-packages\dbt\include\starter_project
+[0m06:06:19.819235 [info ] [MainThread]: 
+Your new dbt project "ecommerce_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:06:19.820625 [info ] [MainThread]: Setting up your profile.
+[0m06:09:15.767843 [info ] [MainThread]: Profile ecommerce_dbt written to C:\Users\Arthur\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m06:09:15.806447 [debug] [MainThread]: Command `dbt init` succeeded at 06:09:15.805624 after 176.60 seconds
+[0m06:09:15.807479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E38159A9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E38022EC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E380249E10>]}
+[0m06:09:15.808447 [debug] [MainThread]: Flushing usage events
+[0m06:09:17.347771 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:09:29.615660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018092695D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001808E30AFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001809484BED0>]}
+
+
+============================== 06:09:29.627618 | ea0b1e4c-c876-4795-ac75-58770799594c ==============================
+[0m06:09:29.627618 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:09:29.629366 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Arthur\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init ecommerce_dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m06:09:29.694937 [info ] [MainThread]: A project called ecommerce_dbt already exists here.
+[0m06:09:29.697074 [debug] [MainThread]: Command `dbt init` succeeded at 06:09:29.696775 after 0.44 seconds
+[0m06:09:29.697956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001809485AC40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180948DE8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000180946DEBE0>]}
+[0m06:09:29.698982 [debug] [MainThread]: Flushing usage events
+[0m06:09:31.186393 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:09:51.184039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202A6F45D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202A2BDAFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202A90FBED0>]}
+
+
+============================== 06:09:51.193724 | 71507c6d-e3a8-4ebb-af89-374324fe9c36 ==============================
+[0m06:09:51.193724 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:09:51.195070 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Arthur\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init ecommerce_dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m06:09:51.250097 [debug] [MainThread]: Starter project path: C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\venv\Lib\site-packages\dbt\include\starter_project
+[0m06:09:51.281447 [info ] [MainThread]: 
+Your new dbt project "ecommerce_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:09:51.282507 [info ] [MainThread]: Setting up your profile.
+[0m06:12:37.146303 [info ] [MainThread]: Profile ecommerce_dbt written to C:\Users\Arthur\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m06:12:37.150492 [debug] [MainThread]: Command `dbt init` succeeded at 06:12:37.150029 after 166.25 seconds
+[0m06:12:37.153709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202AA4669E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202A918EC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202A91ADE10>]}
+[0m06:12:37.156750 [debug] [MainThread]: Flushing usage events
+[0m06:12:38.700468 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:13:32.208682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3003A5D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C37BF6AFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C30254BED0>]}
+
+
+============================== 06:13:32.221457 | d83b7de5-280c-4045-a16a-5857b062e59b ==============================
+[0m06:13:32.221457 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:13:32.222869 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Arthur\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m06:13:32.286560 [info ] [MainThread]: dbt version: 1.11.11
+[0m06:13:32.287486 [info ] [MainThread]: python version: 3.13.7
+[0m06:13:32.288462 [info ] [MainThread]: python path: C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\venv\Scripts\python.exe
+[0m06:13:32.289840 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m06:13:32.303166 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m06:13:34.031918 [info ] [MainThread]: Using profiles dir at C:\Users\Arthur\.dbt
+[0m06:13:34.033127 [info ] [MainThread]: Using profiles.yml file at C:\Users\Arthur\.dbt\profiles.yml
+[0m06:13:34.034556 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\dbt_project.yml
+[0m06:13:34.035847 [info ] [MainThread]: Configuration:
+[0m06:13:34.037338 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m06:13:34.038324 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m06:13:34.040584 [info ] [MainThread]: Required dependencies:
+[0m06:13:34.041946 [debug] [MainThread]: Executing "git --help"
+[0m06:13:34.223267 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m06:13:34.224010 [debug] [MainThread]: STDERR: "b''"
+[0m06:13:34.224708 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m06:13:34.225532 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m06:13:34.229020 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m06:13:34.231152 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_learning", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m06:13:34.233104 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\dbt_project.yml> not found
+
+[0m06:13:34.237258 [debug] [MainThread]: Command `dbt debug` failed at 06:13:34.236600 after 2.34 seconds
+[0m06:13:34.238645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C303974180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3038F56D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C3037F9BF0>]}
+[0m06:13:34.239515 [debug] [MainThread]: Flushing usage events
+[0m06:13:35.975470 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:16:41.524433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A4825D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A044AFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A69DBED0>]}
+
+
+============================== 06:16:41.533987 | b73a6f03-3170-48a2-9c70-74d02836f85c ==============================
+[0m06:16:41.533987 [info ] [MainThread]: Running with dbt=1.11.11
+[0m06:16:41.535588 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Arthur\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m06:16:41.599264 [info ] [MainThread]: dbt version: 1.11.11
+[0m06:16:41.600115 [info ] [MainThread]: python version: 3.13.7
+[0m06:16:41.600964 [info ] [MainThread]: python path: C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\venv\Scripts\python.exe
+[0m06:16:41.603601 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m06:16:41.617690 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.databricks'
+[0m06:16:42.946865 [info ] [MainThread]: Using profiles dir at C:\Users\Arthur\.dbt
+[0m06:16:42.948412 [info ] [MainThread]: Using profiles.yml file at C:\Users\Arthur\.dbt\profiles.yml
+[0m06:16:42.949459 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\dbt_project.yml
+[0m06:16:42.950537 [info ] [MainThread]: Configuration:
+[0m06:16:42.954111 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m06:16:42.956229 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m06:16:42.957804 [info ] [MainThread]: Required dependencies:
+[0m06:16:42.959818 [debug] [MainThread]: Executing "git --help"
+[0m06:16:43.136355 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m06:16:43.137301 [debug] [MainThread]: STDERR: "b''"
+[0m06:16:43.138251 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m06:16:43.138987 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m06:16:43.139913 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m06:16:43.140642 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_learning", target "dev" invalid: Runtime Error
+    Could not find adapter type databricks!
+
+
+[0m06:16:43.141406 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\dbt_project.yml> not found
+
+[0m06:16:43.142944 [debug] [MainThread]: Command `dbt debug` failed at 06:16:43.142750 after 1.93 seconds
+[0m06:16:43.143571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A7DC8180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A7D456D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A7C49BF0>]}
+[0m06:16:43.144215 [debug] [MainThread]: Flushing usage events
+[0m06:16:44.634101 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:19:22.672844 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A34C95D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A36ED7D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A36ED7B10>]}
+
+
+============================== 07:19:22.682714 | 2d801e0a-ebe3-4309-83fd-028c5443a61d ==============================
+[0m07:19:22.682714 [info ] [MainThread]: Running with dbt=1.11.11
+[0m07:19:22.684204 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Arthur\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m07:19:22.685397 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Arthur\Eccomerce-Data-Engineering\Eccomerce-Data-Engineering\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m07:19:22.687270 [debug] [MainThread]: Command `dbt run` failed at 07:19:22.686998 after 0.37 seconds
+[0m07:19:22.688244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A36E5F950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A36E92570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A36F00C00>]}
+[0m07:19:22.689175 [debug] [MainThread]: Flushing usage events
+[0m07:19:24.119512 [debug] [MainThread]: An error was encountered while trying to flush usage events

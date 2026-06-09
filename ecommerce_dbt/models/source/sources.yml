@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: awsdatacatalog
+    schema: bronze_db
+    tables:
+      - name: bronze_cart_header
+      - name: bronze_cart_items
+      - name: bronze_product_reviews
+      - name: bronze_products
+      - name: bronze_user_company
+      - name: bronze_users
+      - name: bronze_user_location
