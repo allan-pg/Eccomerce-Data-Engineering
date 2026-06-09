@@ -1,7 +1,7 @@
 import requests as r 
 import json
 from datetime import datetime
-from utils import s3_client
+from utils.utils import s3_client, ClientError
 
 
 
@@ -15,14 +15,25 @@ buckets = ['ecomerce-landing123', 'ecomerce-bronze123', 'ecomerce-silver123', 'e
 # create an s3 client to make api calls to s3 bucket in aws and create bucket
 
 def create_s3_bucket():
+    existing_buckets = [
+        bucket["Name"]
+        for bucket in s3_client.list_buckets()["Buckets"]
+    ]
+
     for bucket in buckets:
         try:
-            s3_client.create_bucket(Bucket=bucket,
-                                    CreateBucketConfiguration = {
-                                        'LocationConstraint': 'eu-north-1'
-                                    })
-            print(f"Created: {bucket}")
-        except Exception as e:
+            if bucket in existing_buckets:
+                print(f"Bucket already exists: {bucket}")
+            else:
+                s3_client.create_bucket(
+                    Bucket=bucket,
+                    CreateBucketConfiguration={
+                        "LocationConstraint": "eu-north-1"
+                    }
+                )
+                print(f"Created: {bucket}")
+
+        except ClientError as e:
             print(f"Error creating {bucket}: {e}")
 
 def product_data_from_api(url, bucket_name="ecomerce-landing123"):

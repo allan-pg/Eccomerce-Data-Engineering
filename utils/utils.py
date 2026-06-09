@@ -2,6 +2,7 @@ import boto3
 from dotenv import load_dotenv
 import os
 from pyspark.sql import SparkSession
+from botocore.exceptions import ClientError
 
 load_dotenv()
 #create an s3 client
