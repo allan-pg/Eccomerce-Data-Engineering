@@ -1,9 +1,9 @@
-
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
 name: 'ecommerce_dbt'
 version: '1.0.0'
+config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
 profile: 'ecommerce_dbt'
@@ -31,5 +31,17 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   ecommerce_dbt:
+
     bronze:
+      +schema: bronze_db
       +materialized: view
+
+    silver:
+      +schema: silver
+      +materialized: table
+      +location_root: s3://ecomerce-silver123/silver/
+
+    gold:
+      +schema: gold
+      +materialized: table
+      +location_root: s3://ecomerce-silver321/gold/
