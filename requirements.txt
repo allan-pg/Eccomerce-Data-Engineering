@@ -9,7 +9,7 @@ python-dotenv
 sqlalchemy
 psycopg2-binary
 dbt-core
-dbt-postgres
+dbt-athena-community
 pytest
 great-expectations
 jupyter
