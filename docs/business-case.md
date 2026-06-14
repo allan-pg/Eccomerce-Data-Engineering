@@ -8,7 +8,6 @@ The organization generates large volumes of transactional and operational data f
 
 As a result, teams rely on manual reporting and inconsistent datasets, which slows down decision-making.
 
----
 
 ## Problem Statement (As Defined by Business Stakeholders)
 
@@ -22,7 +21,6 @@ Business users currently lack a single source of truth that provides clean, trus
 - Delayed visibility into inventory shortages and sales performance  
 - Difficulty in building reliable dashboards across departments  
 
----
 
 ## Business Requirements
 
@@ -36,7 +34,6 @@ The Sales team requires a trusted dataset to:
 - Monitor order-level and product-level performance  
 - Enable faster decision-making through near real-time reporting  
 
----
 
 ### Inventory Team Requirements
 
@@ -48,7 +45,6 @@ The Inventory and Warehouse teams require better visibility into stock movement 
 - Support replenishment and procurement decisions  
 - Reduce risk of stockouts and overstocking  
 
----
 
 ### Customer Analytics Requirements
 
@@ -60,7 +56,6 @@ The Marketing and CRM teams require customer insights to:
 - Improve targeting for marketing campaigns  
 - Support retention and loyalty strategies  
 
----
 
 ## Expected Business Outcomes
 
