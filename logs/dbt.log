@@ -249,3 +249,25 @@ Runtime Error
 [0m12:18:53.484755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8991BAB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8990AA8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F89903EF10>]}
 [0m12:18:53.485514 [debug] [MainThread]: Flushing usage events
 [0m12:18:54.992153 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:27:32.087168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA377CDBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA332E6AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA3995FD90>]}
+
+
+============================== 20:27:32.096797 | 47a691cf-965c-401f-b3a6-67a6a7ef8b4d ==============================
+[0m20:27:32.096797 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:27:32.098304 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Admin\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:27:42.942673 [info ] [MainThread]: A project called ecommerce_dbt already exists here.
+[0m20:27:42.944724 [debug] [MainThread]: Command `dbt init` succeeded at 20:27:42.944496 after 11.10 seconds
+[0m20:27:42.945229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA399F43E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA399F3D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA397F78A0>]}
+[0m20:27:42.945938 [debug] [MainThread]: Flushing usage events
+[0m20:27:44.200222 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:28:29.570656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA1793DBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA13466AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA19ADFD90>]}
+
+
+============================== 20:28:29.577562 | 4b9d68f0-d3cc-4fbd-bce0-7d49a30b129f ==============================
+[0m20:28:29.577562 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:28:29.578464 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Admin\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init .', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:28:48.924582 [info ] [MainThread]: A project called ecommerce_dbt already exists here.
+[0m20:28:48.926533 [debug] [MainThread]: Command `dbt init` succeeded at 20:28:48.926315 after 19.52 seconds
+[0m20:28:48.927349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA19B703E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA19BF4050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA199778A0>]}
+[0m20:28:48.927891 [debug] [MainThread]: Flushing usage events
+[0m20:28:50.219019 [debug] [MainThread]: An error was encountered while trying to flush usage events
