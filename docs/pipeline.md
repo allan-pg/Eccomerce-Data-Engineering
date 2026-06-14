@@ -12,7 +12,6 @@ Sources:
 
 Raw responses are stored in the Landing bucket.
 
----
 
 ## Landing to Bronze
 
@@ -43,7 +42,6 @@ Output:
 * bronze_users
 * bronze_carts
 
----
 
 ## Bronze to Silver
 
@@ -72,7 +70,6 @@ Output:
 * shipping_period
 * cart_items
 
----
 
 ## Silver to Gold
 
@@ -98,7 +95,6 @@ Output:
 * dim_location
 * dim_reviews
 
----
 
 ## Analytics Consumption
 

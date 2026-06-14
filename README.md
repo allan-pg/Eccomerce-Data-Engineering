@@ -4,13 +4,10 @@ A modern cloud-based data platform built using AWS, PySpark, dbt, and Kimball Di
 
 The platform ingests raw e-commerce data from DummyJSON APIs, processes it through a Medallion Architecture, and delivers analytics-ready datasets for reporting and business intelligence.
 
----
 
 ## Architecture
 
 ![Architecture Diagram](diagrams/architecture.png)
-
----
 
 ## Documentation
 
@@ -22,7 +19,6 @@ The platform ingests raw e-commerce data from DummyJSON APIs, processes it throu
 * [Data Model](docs/data-model.md)
 * [AWS Services](docs/aws-services.md)
 
----
 
 ## Technology Stack
 
@@ -37,8 +33,6 @@ The platform ingests raw e-commerce data from DummyJSON APIs, processes it throu
 * AWS IAM
 * AWS KMS
 
----
-
 ## Project Scope
 
 The platform focuses on:
@@ -48,8 +42,6 @@ The platform focuses on:
 * Carts
 
 to simulate a real-world e-commerce sales and inventory analytics platform.
-
----
 
 ## Key Features
 
@@ -62,10 +54,7 @@ to simulate a real-world e-commerce sales and inventory analytics platform.
 * Governance and Security
 * Analytics-Ready Gold Layer
 
----
 
 ## Data Flow
 
 Source → Landing → Bronze → Silver → Gold → Analytics
-
----
