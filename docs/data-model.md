@@ -4,7 +4,7 @@
 
 The Silver Layer stores normalized entities.
 
-![Silver Layer Diagram](..diagrams/eccomerce_silver_model.jpg) 
+![Silver Layer Diagram](../diagrams/eccomerce_silver_model.jpg) 
 
 ### Customers
 
