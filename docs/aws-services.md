@@ -9,7 +9,6 @@ Used for:
 * Silver Layer
 * Gold Layer
 
----
 
 ## S3 Lifecycle Policies
 
@@ -33,7 +32,6 @@ Benefits:
 * Long-term retention
 * Automated archival
 
----
 
 ## AWS Glue
 
@@ -43,7 +41,6 @@ Used for:
 * Data Catalog
 * Metadata Management
 
----
 
 ## Boto3
 
@@ -56,7 +53,6 @@ Examples:
 * IAM configuration
 * Service provisioning
 
----
 
 ## AWS IAM
 
@@ -66,7 +62,6 @@ Provides:
 * Authorization
 * Role-Based Access Control
 
----
 
 ## AWS KMS
 
@@ -75,7 +70,6 @@ Provides:
 * Encryption at rest
 * Encryption key management
 
----
 
 ## Amazon Athena
 
@@ -85,7 +79,6 @@ Used for:
 * Data Exploration
 * Ad-hoc Analytics
 
----
 
 ## Monitoring
 
@@ -100,7 +93,6 @@ Used for:
 * Failure Notifications
 * Operational Visibility
 
----
 
 ## Future Enhancements
 
