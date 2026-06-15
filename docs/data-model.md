@@ -4,6 +4,8 @@
 
 The Silver Layer stores normalized entities.
 
+![Silver Layer Diagram](Data Models/ecommerce_silver_model.jpg)
+
 ### Customers
 
 Contains:
