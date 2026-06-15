@@ -11,29 +11,46 @@ The Silver Layer stores normalized entities.
 Contains:
 
 * Customer Information
-* Contact Details
-* Demographics
+* birth date
+* hair type and color
+  
 
 ### Products
 
 Contains:
 
 * Product Attributes
-* Pricing
-* Inventory
+* Unit Pricing of products
+* product rating
+* stock status either available or out of stock
+* minimum order quantity one can make
+* quantity of products in stock
 
-### Orders
+### Product_category
+
+Contains:
+
+* Different categories of products
+
+### Shipping_period
+
+Contains:
+* how long it takes to ship a product e.g one week
+
+### cart_items
 
 Contains:
 
 * Customer Purchases
 * Transaction Information
 
-### Order Items
+### adresses
 
 Contains:
+* Customer geographical location
 
-* Product-Level Purchase Details
+### Product Reviews
+* Different reviews for a product
 
 ---
 
