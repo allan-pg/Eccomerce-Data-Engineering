@@ -2,7 +2,7 @@
 
 ## Integration Core (Silver)
 
-The Silver Layer stores normalized entities. This acts as our integration core layer for all sources we have in the organisation.
+The Silver Layer stores normalized entities and acts as the integration core for all organizational data sources. It ensures consistency and prepares data for downstream consumption.
 
 ![Silver Layer Diagram](../diagrams/eccomerce_silver_model.jpg) 
 
@@ -12,7 +12,7 @@ Contains:
 
 * Customer Information
 * birth date
-* hair type and color
+* gender
   
 
 ### Products
@@ -50,11 +50,11 @@ Contains:
 * Customer geographical location
 
 ### Product Reviews
-* Different reviews and ratings for a product by users who have purchased the products 
+* User reviews and ratings for purchased products 
 
 
 ## Star Schema (Gold)
-The gold layer has been designed according to kimballs star schema design. It is designed for faster reads and is highly denormalised. Its the layer from where the consumers consume our data.
+The Gold Layer follows Kimball’s star schema design. It is highly denormalized for faster reads and serves as the primary layer for analytics and reporting.
 
 ![Gold Layer Diagram](../diagrams/ecommerce_star_schema.jpg)
 
