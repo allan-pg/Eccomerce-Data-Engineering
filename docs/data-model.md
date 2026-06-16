@@ -52,22 +52,26 @@ Contains:
 ### Product Reviews
 * Different reviews for a product
 
----
 
 ## Star Schema (Gold)
 
+![Gold Layer Diagram](../diagrams/ecommerce_star_schema.jpg)
+
 ### Fact Table
 
-fact_sales
+fact_orders
 
 Measures:
 
 * Quantity Sold
-* Revenue
+* Total line amount
 * Discount Amount
-* Order Count
 
----
+Fact_inventory
+
+* quantity in stock
+* availability status (instock, out of stock)
+
 
 ### Dimensions
 
@@ -76,10 +80,9 @@ dim_customer
 Attributes:
 
 * Customer Name
-* Age Group
+* adress
 * Gender
 
----
 
 dim_product
 
@@ -89,7 +92,6 @@ Attributes:
 * Category
 * Brand
 
----
 
 dim_date
 
@@ -100,16 +102,6 @@ Attributes:
 * Quarter
 * Year
 
----
 
-## Star Schema Design
-
-```
-            dim_customer
-                   |
-                   |
-```
-
-dim_product ---- fact_sales ---- dim_date
 
 This design supports fast analytical queries and dashboard reporting.
