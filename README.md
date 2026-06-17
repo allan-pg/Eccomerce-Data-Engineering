@@ -18,6 +18,7 @@ The platform ingests raw e-commerce data from DummyJSON APIs, processes it throu
 * [Pipeline Design](docs/pipeline.md)
 * [Data Model](docs/data-model.md)
 * [AWS Services](docs/aws-services.md)
+* [Power BI DashBoard](docs/dashboard.md)
 
 
 ## Technology Stack
