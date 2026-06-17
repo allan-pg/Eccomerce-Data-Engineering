@@ -1,3 +1,10 @@
+{{ config(
+    materialized='table',
+    format='parquet',
+    external_location='s3://ecomerce-gold321/silver/fact_orders/',
+    partitioned_by=['load_date']
+) }}
+
 select 
     c.cart_id,
 	Customer.user_sk,
