@@ -8,7 +8,7 @@ This dashboard provides an interactive view of ecommerce sales performance by an
 
 ## Dashboard Preview
 
-![Ecommerce Dashboard](../diagrams/eccomerce_dashboard_preview.jpg)
+![Ecommerce Dashboard](../diagrams/eccomerce_dashboard_preview.JPG)
 
 
 ## Business Objective
